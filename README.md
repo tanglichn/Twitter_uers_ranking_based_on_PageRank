@@ -22,15 +22,15 @@ numpy
                          
 4) Test RecommendRank: just run this algorithm, and see the result, because I add the graph in the code. 
 
-4. Compare the performance of PageRank and HITS in twitter 
+5. Compare the performance of PageRank and HITS in twitter 
 
 Step one: The dataset can download from “https://snap.stanford.edu/data/ego-Twitter.html" the file name is “twitter_combined.txt.gz”
 Step two: copy the file and run of them.
 Note: the time of running would be quite long, because the dataset is very big.
 
-5. Implement GlobalRank in Twitter
+6. Implement GlobalRank in Twitter
 Step one: The dataset can download from “https://snap.stanford.edu/data/higgs-twitter.html" they are edgelist format, we can paste the file path in the next line code “g = nx.read_weighted_edgelist()” to read those file. 
 Note: we should make the “g = G.init_graph()” become comments. 
       the time of running would be quite long, because the dataset is very big.
 
-6. copy file path paste in the "Draw.py" and run can visulise the direated graph.
+7. copy file path paste in the "Draw.py" and run can visulise the direated graph.
